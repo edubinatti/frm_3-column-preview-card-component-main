@@ -38,17 +38,19 @@ body {
 }
 
 .full-card {
-    border-radius: 5px;
+    border-radius: 7px;
     box-shadow: 0 1px 10px -1px rgb(0 0 0 / 14%);
-    margin: 2rem;
+    margin: 5.5rem 1.5rem;
     overflow: auto;
 }
 
 .card {
     /* desktop */
-    width: 277px;
-    height: 540px;
-    padding: 48px 49px;
+    /* width: 277px;
+    height: 540px; */
+    width: 20.4375rem;
+    height: 27.625rem;
+    padding: 3rem 3.0625rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -81,4 +83,33 @@ body {
 
 .card .card-content .card-descriptions {
     color: var(--clr-transparent-white);
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.card .card-footer a{
+    text-decoration: none;
+    font-size: 0.75rem;
+    font-weight: 400;
+    min-width: 9.125rem;
+    padding: 1rem 2rem;
+    background-color: var(--clr-very-light-gray);
+    box-shadow: 0 1px 10px -1px rgb(0 0 0 / 14%);
+    border-radius: 1.5rem;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.card .card-footer a:nth-child(1){
+    color: var(--clr-bright-orange);
+}
+
+.card .card-footer a:nth-child(2){
+    color: var(--clr-dark-cyan);
+}
+
+.card .card-footer a:nth-child(3){
+    color: var(--clr-very-dark-cyan);
+}
+
+.card-button:hover {
+    background-color: transparent;
 }
